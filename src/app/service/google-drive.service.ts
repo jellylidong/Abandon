@@ -34,6 +34,7 @@ export class GoogleDriveService {
   }
 
   updateSignInStatus(): void {
+
     this.userEmail.emit(
       gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile().getEmail());
     this.isSignIn.emit(gapi.auth2.getAuthInstance().isSignedIn.get());
