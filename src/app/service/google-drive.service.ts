@@ -5,7 +5,6 @@ import {Song} from "../class/song";
 
 
 declare var gapi: any;
-
 @Injectable({
   providedIn: 'root'
 })

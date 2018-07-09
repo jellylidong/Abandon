@@ -16,6 +16,7 @@
       "es2017",
       "dom"
     ],
-    "types": ["gapi"]
+    "module": "commonjs",
+    "types": ["chrome"]
   }
 }

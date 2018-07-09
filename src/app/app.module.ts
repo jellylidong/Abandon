@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
-import {GoogleDriveService} from "./service/google-drive.service";
+import {GoogleDriveService} from './service/google-drive.service';
 
 @NgModule({
   declarations: [
