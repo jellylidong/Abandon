@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  
+
+  getTab() {
+    // chrome.tabs.getCurrent(tab => {
+    //   console.log(tab);
+    // })
+    console.log("clicked");
+    // chrome.runtime.sendMessage({ popupMounted: true });
+    let manifest = chrome.runtime.getManifest();
+    console.log(manifest);
+  }
 }
